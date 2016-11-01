@@ -11,22 +11,9 @@
     android:orientation="horizontal"
     tools:context="ca.dylansheng.androidtest.MainActivity">
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/hello_world"
-        />
-
-
-    <Button
-        android:id="@+id/button_1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button 1"
-        android:gravity="center"
-        android:textColor="#0000ff"
-        android:textSize="24sp"
-        android:textAllCaps="false"/>
+    <ListView
+        android:id="@+id/listview_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
 </LinearLayout>
